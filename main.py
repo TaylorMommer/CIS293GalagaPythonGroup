@@ -25,7 +25,9 @@ playerX = 370
 playerY = 480
 playerX_change = 0
 
-
+# Background music
+mixer.music.load('Tune.wav')
+mixer.music.play(-1)
 
 # Enemy position and values
 enemyImg = []
